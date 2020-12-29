@@ -218,3 +218,7 @@ fabric.properties
 ### AndroidStudio Patch ###
 
 !/gradle/wrapper/gradle-wrapper.jar
+
+
+### Key files ###
+android/app/google-services.json
