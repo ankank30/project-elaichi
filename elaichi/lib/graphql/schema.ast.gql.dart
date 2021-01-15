@@ -1,11 +1,5 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-// ignore_for_file: sort_unnamed_constructors_first
-// ignore_for_file: public_member_api_docs
-// ignore_for_file: implementation_imports
-// ignore_for_file: constant_identifier_names
-// ignore_for_file: avoid_redundant_argument_values
-
 import 'package:gql/ast.dart' as _i1;
 
 const cacheControl = _i1.DirectiveDefinitionNode(

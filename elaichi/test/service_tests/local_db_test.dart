@@ -20,6 +20,20 @@ void main() {
   });
 
   group('Local DB -', () {
+    test('Assertion errors of get, put and delete', () {
+      when(mockHive.isBoxOpen(LocalDbBoxes.userData.toString()))
+          .thenAnswer((_) => false);
+
+      expect(() => localDb.getValue(LocalDbBoxes.userData, "DummyKey"),
+          throwsAssertionError);
+      expect(
+          () =>
+              localDb.putValue(LocalDbBoxes.userData, "DummyKey", "DummyValue"),
+          throwsAssertionError);
+      expect(() => localDb.deleteValue(LocalDbBoxes.userData, "DummyKey"),
+          throwsAssertionError);
+    });
+
     test('Open box', () async {
       when(mockHive.isBoxOpen(LocalDbBoxes.userData.toString()))
           .thenAnswer((_) => false);

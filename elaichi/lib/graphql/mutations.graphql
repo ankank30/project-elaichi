@@ -1,0 +1,10 @@
+mutation AuthUsers($userInput: UserInputType) {
+  authUser(user: $userInput) {
+  id
+  name
+  username
+  gmailAuthMail
+  mobile
+  displayPicture
+  }
+}

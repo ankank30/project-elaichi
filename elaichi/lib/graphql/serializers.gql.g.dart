@@ -8,6 +8,10 @@ part of 'serializers.gql.dart';
 
 Serializers _$serializers = (new Serializers().toBuilder()
       ..add(GAccessLevelInputType.serializer)
+      ..add(GAuthUsersData.serializer)
+      ..add(GAuthUsersData_authUser.serializer)
+      ..add(GAuthUsersReq.serializer)
+      ..add(GAuthUsersVars.serializer)
       ..add(GCacheControlScope.serializer)
       ..add(GClubInputType.serializer)
       ..add(GDateTime.serializer)

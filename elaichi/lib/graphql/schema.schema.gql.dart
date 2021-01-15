@@ -1,10 +1,5 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-// ignore_for_file: sort_unnamed_constructors_first
-// ignore_for_file: public_member_api_docs
-// ignore_for_file: implementation_imports
-// ignore_for_file: constant_identifier_names
-
 import 'package:built_collection/built_collection.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
@@ -35,8 +30,7 @@ abstract class GAccessLevelInputType
   static Serializer<GAccessLevelInputType> get serializer =>
       _$gAccessLevelInputTypeSerializer;
   Map<String, dynamic> toJson() =>
-      _i1.serializers.serializeWith(GAccessLevelInputType.serializer, this)
-          as Map<String, dynamic>;
+      _i1.serializers.serializeWith(GAccessLevelInputType.serializer, this);
   static GAccessLevelInputType fromJson(Map<String, dynamic> json) =>
       _i1.serializers.deserializeWith(GAccessLevelInputType.serializer, json);
 }
@@ -79,8 +73,7 @@ abstract class GClubInputType
   static Serializer<GClubInputType> get serializer =>
       _$gClubInputTypeSerializer;
   Map<String, dynamic> toJson() =>
-      _i1.serializers.serializeWith(GClubInputType.serializer, this)
-          as Map<String, dynamic>;
+      _i1.serializers.serializeWith(GClubInputType.serializer, this);
   static GClubInputType fromJson(Map<String, dynamic> json) =>
       _i1.serializers.deserializeWith(GClubInputType.serializer, json);
 }
@@ -132,8 +125,7 @@ abstract class GEventInputType
   static Serializer<GEventInputType> get serializer =>
       _$gEventInputTypeSerializer;
   Map<String, dynamic> toJson() =>
-      _i1.serializers.serializeWith(GEventInputType.serializer, this)
-          as Map<String, dynamic>;
+      _i1.serializers.serializeWith(GEventInputType.serializer, this);
   static GEventInputType fromJson(Map<String, dynamic> json) =>
       _i1.serializers.deserializeWith(GEventInputType.serializer, json);
 }
@@ -158,8 +150,7 @@ abstract class GStoryInputType
   static Serializer<GStoryInputType> get serializer =>
       _$gStoryInputTypeSerializer;
   Map<String, dynamic> toJson() =>
-      _i1.serializers.serializeWith(GStoryInputType.serializer, this)
-          as Map<String, dynamic>;
+      _i1.serializers.serializeWith(GStoryInputType.serializer, this);
   static GStoryInputType fromJson(Map<String, dynamic> json) =>
       _i1.serializers.deserializeWith(GStoryInputType.serializer, json);
 }
@@ -201,8 +192,7 @@ abstract class GUserInputType
   static Serializer<GUserInputType> get serializer =>
       _$gUserInputTypeSerializer;
   Map<String, dynamic> toJson() =>
-      _i1.serializers.serializeWith(GUserInputType.serializer, this)
-          as Map<String, dynamic>;
+      _i1.serializers.serializeWith(GUserInputType.serializer, this);
   static GUserInputType fromJson(Map<String, dynamic> json) =>
       _i1.serializers.deserializeWith(GUserInputType.serializer, json);
 }
@@ -221,8 +211,7 @@ abstract class GVenueInputType
   static Serializer<GVenueInputType> get serializer =>
       _$gVenueInputTypeSerializer;
   Map<String, dynamic> toJson() =>
-      _i1.serializers.serializeWith(GVenueInputType.serializer, this)
-          as Map<String, dynamic>;
+      _i1.serializers.serializeWith(GVenueInputType.serializer, this);
   static GVenueInputType fromJson(Map<String, dynamic> json) =>
       _i1.serializers.deserializeWith(GVenueInputType.serializer, json);
 }

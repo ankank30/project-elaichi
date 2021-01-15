@@ -7,5 +7,6 @@ linter:
     public_member_api_docs: true
 
 analyzer:
+  exclude: [lib/graphql/**]
   errors:
     argument_type_not_assignable: false

@@ -1,9 +1,10 @@
-// ignore_for_file: public_member_api_docs
-// ignore_for_file: implementation_imports
-
 import 'package:built_collection/built_collection.dart';
 import 'package:built_value/serializer.dart';
 import 'package:built_value/standard_json_plugin.dart' show StandardJsonPlugin;
+import 'package:elaichi/graphql/mutations.data.gql.dart'
+    show GAuthUsersData, GAuthUsersData_authUser;
+import 'package:elaichi/graphql/mutations.req.gql.dart' show GAuthUsersReq;
+import 'package:elaichi/graphql/mutations.var.gql.dart' show GAuthUsersVars;
 import 'package:elaichi/graphql/schema.schema.gql.dart'
     show
         GAccessLevelInputType,
@@ -25,6 +26,10 @@ final SerializersBuilder _serializersBuilder = _$serializers.toBuilder()
   ..addPlugin(StandardJsonPlugin());
 @SerializersFor([
   GAccessLevelInputType,
+  GAuthUsersData,
+  GAuthUsersData_authUser,
+  GAuthUsersReq,
+  GAuthUsersVars,
   GCacheControlScope,
   GClubInputType,
   GDateTime,
